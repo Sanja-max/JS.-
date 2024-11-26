@@ -26,7 +26,7 @@ squareRedText.classList.add('hidden');
 
 squareRedShowText.appendChild(squareRedText);
 squareRedButton.addEventListener('click', function () {
-  console.log('Button is klicked!');
+  console.log('Button is clicked!');
 
   squareRedText.classList.toggle('hidden');
 });
